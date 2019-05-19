@@ -1,5 +1,6 @@
 mod printer;
 mod vars;
+mod types;
 
 // This is the main function
 fn main() {
@@ -8,5 +9,6 @@ fn main() {
   printer::pretty_print();
   printer::print_complex_number();
   vars::run();
+  types::run();
 }
 
