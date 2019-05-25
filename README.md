@@ -1,6 +1,7 @@
-🦀 Fkin Sweet Rust
+## 🦀 Fkin Sweet Rust
 
-Bunch of code in rust to be used as a personal cheatsheet for rust.
+Bunch of code in rust, to be used as a personal cheatsheet for rust. 
+Mostly based on [this crash course](https://www.youtube.com/watch?v=zF34dRivLOw&t=2828s)
 
 ### Features
  - Comes with Cargo Package Manager
@@ -9,10 +10,11 @@ Bunch of code in rust to be used as a personal cheatsheet for rust.
 ### How to make it oh yeah! 
 
 Install rust
-````curl https://sh.rustup.rs -sSf | sh
+````
+curl https://sh.rustup.rs -sSf | sh
 ````
 
-Then go to project dir
+Then go to project dir and
 ````
 cargo run
 ```

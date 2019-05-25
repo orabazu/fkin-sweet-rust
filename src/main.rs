@@ -4,6 +4,8 @@ mod types;
 mod tuples;
 mod arrays;
 mod vectors;
+mod conditionals;
+mod loops;
 
 // This is the main function
 fn main() {
@@ -16,5 +18,7 @@ fn main() {
   tuples::run();
   arrays::run();
   vectors::run();
+  conditionals::run();
+  loops::run();
 }
 
