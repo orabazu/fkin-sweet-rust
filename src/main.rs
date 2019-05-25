@@ -1,6 +1,9 @@
 mod printer;
 mod vars;
 mod types;
+mod tuples;
+mod arrays;
+mod vectors;
 
 // This is the main function
 fn main() {
@@ -10,5 +13,8 @@ fn main() {
   printer::print_complex_number();
   vars::run();
   types::run();
+  tuples::run();
+  arrays::run();
+  vectors::run();
 }
 
