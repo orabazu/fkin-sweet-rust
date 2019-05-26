@@ -6,6 +6,9 @@ mod arrays;
 mod vectors;
 mod conditionals;
 mod loops;
+mod functions;
+mod ref_pointer;
+mod structs;
 
 // This is the main function
 fn main() {
@@ -18,7 +21,11 @@ fn main() {
   tuples::run();
   arrays::run();
   vectors::run();
-  conditionals::run();
-  loops::run();
+  // conditionals::run();
+  // loops::run();
+  functions::run();
+  ref_pointer::run();
+  structs::run();
+
 }
 
