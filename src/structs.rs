@@ -12,15 +12,27 @@ impl Person {
     }
   }
 
+  // getter
   fn full_info(&self) -> String {
     format!("{} {} of House Stark", self.name, self.age.to_string())
+  }
+
+  // setter
+  fn set_name(&mut self, name: &str) {
+    self.name = name.to_string();
+  }
+
+  fn to_tuple(self) -> (String, i32){
+    (self.name, self.age)
   }
 }
 
 
   
 pub fn run(){
-  let pers = Person::new("Arya", 17);
+  let mut pers = Person::new("Arya", 17);
   // println!("{:?}", (pers.age, pers.name));
+  pers.set_name("Jon");
   println!("{:?}", pers.full_info());
+  println!("{:?}", pers.to_tuple());
 }

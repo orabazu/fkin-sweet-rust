@@ -9,6 +9,7 @@ mod loops;
 mod functions;
 mod ref_pointer;
 mod structs;
+mod enums;
 
 // This is the main function
 fn main() {
@@ -26,6 +27,7 @@ fn main() {
   functions::run();
   ref_pointer::run();
   structs::run();
+  enums::run();
 
 }
 
